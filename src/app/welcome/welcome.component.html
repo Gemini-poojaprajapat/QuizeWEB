@@ -1,0 +1,19 @@
+<div class="container bg-light py-3">
+    <div class="card p-3">
+        <h1 class="fw-bold">Welcome to the quize app</h1>
+        <p class="col-md-8 fs-4">this quize will contain 10 questions. Each question holds 10 points</p>
+        <h3>Rules:</h3>
+        <ol type="1">
+            <li>Correct question will contain 10 points</li>
+            <li>Incorrect question will contain -10 points</li>
+            <li>You have 60 mints the answere each question </li>
+            <li>Refreshing the page will rest the page</li>
+        </ol>
+        <h1 style="font-family: cursive; text-align: center;">All the best!!</h1>
+        <div class="col-md-4 my-3">
+            <label>Enter your name:</label>
+            <input #name type="text" class="form-control" placeholder="Enter Your Name.......">
+        </div>
+        <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuize()">Start the Quize!!</button>
+    </div>
+</div>
